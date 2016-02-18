@@ -1,0 +1,38 @@
+img, media {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.img-left-50 {
+	@include breakpoint(1em) {
+		width: 100%;
+	}
+	@include breakpoint($tablet) {
+		float: left;
+		max-width: 50%;
+		margin-right: 1em;
+	}
+}
+
+.img-left-35 {
+	@include breakpoint(1em) {
+		width: 100%;
+	}
+	@include breakpoint($tablet) {
+		float: left;
+		max-width: 35%;
+		margin-right: 1em;
+	}
+}
+
+.img-left-25 {
+	@include breakpoint(1em) {
+		width: 100%;
+	}
+	@include breakpoint($tablet) {
+		float: left;
+		max-width: 25%;
+		margin-right: 1em;
+	}
+}

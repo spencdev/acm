@@ -1,0 +1,17 @@
+.l-header {
+	margin-top: $vert-spacing-unit;
+
+	.l-branding {
+		margin-bottom: $vert-spacing-unit;
+		img {
+			@include breakpoint(1em) {
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+			@include breakpoint($tablet) {
+				margin: inherit;
+			}
+		}
+	}
+}

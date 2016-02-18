@@ -1,0 +1,61 @@
+name = Atlanta Cause Marketing
+description = theme information for Atlanta Cause Marketing.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+name = Atlanta Cause Marketing
+description = Please provide a description for your theme.
+base theme = omni_psi
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/acm-theme.normalize.css
+stylesheets[all][] = css/acm-theme.hacks.css
+stylesheets[all][] = css/acm-theme.styles.css
+stylesheets[all][] = css/acm-theme.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/acm-theme.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[user_first] = First User
+regions[user_second] = Second User
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[lower] = Lower
+regions[footer] = Footer
+regions[footer_first] = First Footer
+regions[footer_second] = Second Footer
+regions[footer_third] = Third Footer
+regions[footer_fourth] = Fourth Footer
+regions[footer_notice] = Footer notice
+
+; ========================================
+; Plugins
+; ========================================
+plugins[panels][layouts] = panels/layouts
+plugins[panels][styles] = panels/styles
+
+; ========================================
+; Information added by Drupal.org packaging script on 2015-07-21
+; ========================================
+version = "7.x-4.4"
+core = "7.x"
+project = "Atlanta Cause Marketing"
+datestamp = "1437473042"

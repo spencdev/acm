@@ -1,0 +1,35 @@
+figure.fig-left-25 {
+	@include breakpoint(1em) {
+		display: block;
+		width: 100%;
+		margin: 1em 0 1em 0;
+	}
+	@include breakpoint($tablet) {
+		float: left;
+		width: 25%;
+		margin: 0 $horz-spacing-unit 0 0;
+	}
+
+	figcaption {
+		clear: both;
+	}
+}
+
+
+
+figure.fig-left-35 {
+	@include breakpoint(1em) {
+		display: block;
+		width: 100%;
+		margin: 1em 0 1em 0;
+	}
+	@include breakpoint($tablet) {
+		float: left;
+		width: 35%;
+		margin: 0 $horz-spacing-unit 0 0;
+	}
+
+	figcaption {
+		clear: both;
+	}
+}
